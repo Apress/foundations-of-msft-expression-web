@@ -1,0 +1,10 @@
+Chapter 4 files are:
+
+Text Files
+
+structural.txt
+
+Completed Exercises
+
+
+structural.html 

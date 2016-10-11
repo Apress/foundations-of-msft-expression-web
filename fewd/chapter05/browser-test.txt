@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; 
+  charset=iso-8859-1" />
+<title>Default Browser Test</title>
+<style type="text/css">
+body {
+    background-color: #B5FF84;
+    margin: 0;}
+p {
+    background-color: #ffffff;}
+.codeblock {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #FFFFCC;
+    width: 22em;
+    white-space: pre;}
+</style>
+</head>
+
+<body>
+
+<h1>Browser Test</h1>
+<p>This page has the following style code:</p>
+<div class="codeblock">
+    <code>&lt;style type=&quot;text/css&quot;&gt; body { background-color: #B5FF84; margin: 0; } 
+    p { background-color: #ffffff; } .codeblock { margin-left: auto; margin-right: 
+    auto; padding: 10px; border: 1px solid #000000; background-color: #FFFFCC; width: 
+    22em; white-space: pre; } &lt;/style&gt; </code></div>
+<p>In Firefox, Internet Explorer, and Safari the text on this page should be 
+obnoxiously close to the side of the browser, which makes it hard to read. In Opera this 
+page should have normal default browser spacing between the edge of the browser 
+window and the text, which makes it easier to read. </p>
+<p>You might also notice a font display difference as well. If you have access 
+to more than one operating system, please view this page on the different systems 
+to see what difference the default font settings make. </p>
+<p>The codeblock div above demonstrates the effect of padding and margin. To make 
+the difference easier to see, a border was used to outline the div area. The margin 
+is the space on the left between the edge of the page and the beginning of the div. 
+While padding is the space between the content and the border.</p>
+
+</body>
+
+</html>

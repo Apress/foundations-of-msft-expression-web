@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="form.css" />
+<script language="javascript"  type="text/javascript">
+function validateForm() {
+with (document.contact) {
+var alertMsg = "The following REQUIRED fields\nhave been left empty:\n";
+if (sname.value == "") alertMsg += "\nName";
+if (email.value == "") alertMsg += "\nEmail";
+if (message.value == "") alertMsg += "\nMessage";
+if (alertMsg != "The following REQUIRED fields\nhave been left empty:\n") {
+alert(alertMsg);
+return false;
+} else {
+return true;
+} } }
+</script>
+
+</head>
+
+<body>
+<h1>Contact Us</h1>
+<form method="post" action="sendmail.asp" name="contact"
+onsubmit="return validateForm()">
+
+<p><label id="lblsname" for="sname">Name:</label><input name="sname" 
+type="text" /><br />
+<label id="lblemail" for="email">Email: </label><input name="email" type="text" /><br />
+<label id="lblmessage" for="message">Message:</label><textarea name="message" cols="30" rows="10"></textarea></p>
+<p class="submit">
+	<input name="Submit1" id="submit1" type="submit" value="submit" /></p>
+</form>
+	<p class="footer">© 2007 Cheryl D. Wise</p>
+</body>
+
+</html>

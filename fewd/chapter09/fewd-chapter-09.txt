@@ -1,0 +1,21 @@
+Chapter 9 files are:
+
+Text Files
+
+chapter8.txt
+few-site.css
+
+Image files
+
+book-corner.jpg
+book.png
+menu-bg.gif
+menu-lft.gif
+
+
+Completed Exercises
+
+chapter8.html
+preped.html
+few-site.dwt
+few-site3.dwt

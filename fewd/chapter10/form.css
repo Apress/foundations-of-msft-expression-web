@@ -1,0 +1,20 @@
+﻿form {
+	border: thin solid #000000;
+	padding: .5em;
+	margin: 1em auto 1em auto;
+	width: 32em;
+	background-color: #CEDBAE;
+	font-weight: bold;
+}
+label {
+	float: left;
+	padding-right: .5em;
+	width: 8em;
+	text-align: right;
+	font-weight: bold;
+	clear: left;
+}
+.submit {
+	font-weight: bold;
+	text-align: center;
+}

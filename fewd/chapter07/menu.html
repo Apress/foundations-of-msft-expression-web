@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+<title>Float Layout Exercise</title>
+<style type="text/css">
+h1 {
+    border-style: outset inset inset outset;
+    border-width: thick;
+    border-color: #22292D #999999 #999999 #22292D;
+    font-size: 1.8em;
+    text-align: center;
+    background-image: url('images/h1-bg.png');
+    padding: 1em;}
+body {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    background-image: url('../chapter06/images/crystal-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #C6C7C3;}
+.menu {
+    width: 150px;
+    float: left;}
+#maincontent {
+    margin-left: 165px;}
+.menu ul li {
+    border: thin solid #999999;
+    background-image: url('images/h1-bg.png');}
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;}
+.menu li a {
+    padding: .2em .5em .2em .5em;
+    color: #666666;
+    text-decoration: none;
+    display: block;}
+.menu li a:hover {
+    background-color: #999999;
+    color: #DFE0D5;}
+#footer {
+    clear: both;
+    border-top-style: ridge;
+    border-top-width: medium;
+    border-top-color: #E7E3DE;
+    font-size: .8em;}
+</style>
+<!--[if lte IE 6]>
+<style>
+.menu ul a, h1 {
+    background-image: none;
+    background-color: #C0C0C0;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+<h1><a name="top"></a>Structuring Your Page Exercise</h1>
+<div class="menu">
+    <ul>
+        <li><a href="javascript:void(0)">page 1</a></li>
+        <li><a href="javascript:void(0)">page 2</a></li>
+        <li><a href="javascript:void(0)">page 3</a></li>
+        <li><a href="javascript:void(0)">page 4</a></li>
+        <li><a href="javascript:void(0)">page 5</a></li>
+        <li><a href="javascript:void(0)">page 6</a></li>
+    </ul>
+</div>
+<div id="maincontent">
+    <p>In this exercise we will be adding page structure. On a real page most 
+    of the text would be in paragraph elements with a list or two and possibly 
+    a data table. In this exercise we will be using the different ways of 
+    structuring your page.</p>
+    <h2>Begin with Headers</h2>
+    <p>While a live page would have design elements such as mastheads, logos, 
+    and menus our exercise page will not be using design elements, sticking 
+    with the basics.</p>
+    <h2>Lists as Menus</h2>
+    <p>Most standards-based web design uses an unordered list as the markup 
+    for navigational elements since semantically your site navigation is basically 
+    a list of pages within your site.</p>
+    <p>Tables</p>
+    <p>Should be limited to tabular data such as event information or a price 
+    list.</p>
+    <table style="width: 100%">
+        <tr>
+            <th>item no.</th>
+            <th>description</th>
+            <th>price each</th>
+            <th>per dozen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>red balloon</td>
+            <td>$0.25</td>
+            <td>$2.25</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>blue balloon</td>
+            <td>$0.25</td>
+            <td>$2.25</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>white balloon</td>
+            <td>$0.25</td>
+            <td>$2.25</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>silver mylar balloon</td>
+            <td>$1.75</td>
+            <td>$19.00</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>gold mylar balloon</td>
+            <td>$1.75</td>
+            <td>$19.00</td>
+        </tr>
+    </table>
+    <p><a href="#top">back to top</a></p>
+</div>
+<p id="footer">© 2007 Cheryl D Wise</p>
+
+</body>
+
+</html>

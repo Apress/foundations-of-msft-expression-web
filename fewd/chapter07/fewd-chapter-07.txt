@@ -1,0 +1,22 @@
+Chapter 7 files are:
+
+Text Files
+
+chapter7.txt  
+floats.txt
+menu.txt
+body.txt
+
+Image files
+
+crystal-bg.jpg
+h1-bg.png
+
+Completed Exercises
+
+step1.html
+absolute.html
+absolute1.html
+floats.html
+menu.html
+body.html

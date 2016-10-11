@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Structuring Your Page Exercise</title>
+</head>
+<body>
+<p>Structuring Your Page Exercise</p>
+<p>In this exercise we will be adding page structure. On real page 
+most of the text would be in paragraph elements with a list or two 
+and possibly a data table. In this exercise we will be using the different 
+ways of structuring your page.</p>
+<p>Begin with Headers</p>
+<p>While a live page would have design elements such as mastheads, 
+logos, and menus or exercise page will not be using design elements, 
+sticking with the basics.</p>
+<p>Lists as Menus</p>
+<p>Most standards based web design uses an unordered list as the 
+mark-up for navigational elements since semantically your site navigation 
+is basically a list of pages within your site.</p>
+<p>page 1</p>
+<p>page 2</p>
+<p>page 3</p>
+<p>page 4</p>
+<p>page 5</p>
+<p>Tables</p>
+<p>Should be limited to tabular data such as event information or 
+a price list.</p>
+<p>item no., description, price each, per dozen</p>
+<p>1,red balloon, $0.25,$2.25</p>
+<p>2,blue balloon,$0.25,$2.25</p>
+<p>3,white balloon,$0.25,$2.25</p>
+<p>4,silver mylar balloon,$1.75,$19.00</p>
+<p>5,gold mylar balloon,$1.75, $19.00</p>
+</body>
+</html>

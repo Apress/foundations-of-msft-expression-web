@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Position: Relative</title>
+<style type="text/css">
+body {
+	margin: 2em;
+}
+h3 {
+	font-family: trebuchet ms,Arial,sans-serif;
+}
+p {
+	margin: 8px 5px;
+}
+.container {
+	border: green 1px solid;
+	width: 50%;
+	top: 0px;
+	left: 0px;
+	margin: 1em;
+	z-index: 10;
+}
+.relative {
+	position: relative;
+	top: 15px;
+	left: 15px;
+	background-color: #eeeeee;
+	padding: 5px;
+}
+.normal {
+	z-index: 20;
+	Position: relative;
+	top: -12px;
+	left: -12px;
+}
+</style>
+</head>
+<body>
+<h3>Position: Relative</h3>
+<div class="container">
+	<img height="25" alt="normal flow" 
+	src="images/circ.gif" width="25" class="normal" />
+	<div class="relative">
+		This text is positioned 5 pixels below where it would 
+		usually appear 
+		using the following code: <br />
+		.relative {<br />
+		position: relative;<br />
+		top: 15px;<br />
+		left: 15px;<br />
+		background-color: #eeeeee;<br />
+		padding: 5px;<br />
+		}
+		</div>
+</div>
+</body>
+</html>

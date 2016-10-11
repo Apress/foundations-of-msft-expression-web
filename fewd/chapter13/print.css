@@ -1,0 +1,28 @@
+﻿#masthead h1 {
+	font-size: 20pt;
+}
+.tagline {
+	font-size: 14pt;
+}
+#menu {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+#container {
+	border: none;
+}
+#leftcol {
+	width: 100%;
+	padding: 0;
+}
+#main_content {
+	padding: 0;
+	margin: 0;
+}
+#footer {
+	margin: 0px;
+	padding: .1em 1em;
+	font-size: 9pt;
+	border: none;
+}

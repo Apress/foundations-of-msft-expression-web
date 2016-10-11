@@ -1,0 +1,21 @@
+Chapter 6 files are:
+
+Text Files
+
+structural.txt
+block.txt
+background.txt
+border.txt
+
+Image files
+
+crystal-bg.jpg
+h1-bg.png
+
+Completed Exercises
+
+font.html
+block.html
+background.html
+border.html
+border2.html

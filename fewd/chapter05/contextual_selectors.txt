@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contextual Selectors</title>
+<style type="text/css">
+#masthead {
+     background-color: #5B5B5B;
+     color: #FFFFFF;
+     margin: 0;
+     padding: .2em 0;
+}
+
+#masthead h1 {
+     color: #E4E4E4;
+     font-family: Georgia, "Times New Roman", Times, serif;
+     margin-bottom: 0;
+     padding-right: 1em;
+     text-align: right;
+}
+
+#masthead p {
+     margin-top: 0;
+     text-align: right;
+     width: 75%;
+} 
+</style>
+</head>
+<body>
+<div id="masthead">
+   <h1>Contextual Selectors</h1>
+   <p>Text can act like a tagline.</p>
+</div>
+<p>While when you look at this paragraph you see default display of paragraph 
+elements. In most cases you will not have more than one h1 on the page but for 
+demonstration purposes another h1 follows this paragraph.</p>
+<h1>Default h1</h1>
+</body>
+</html>

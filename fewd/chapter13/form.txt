@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact Us</title>
+<meta name="description" content="Expression Web Design book, tutorials," />
+<link rel="stylesheet" type="text/css" href="../../few-site.css" />
+<!-- insert styles or scripts here -->
+<link rel="stylesheet" type="text/css" href="form.css" />
+</head>
+
+<body>
+
+<img
+src="../../images/bcm3.png" class="floatright" width="126" height="164" />
+<div id="masthead">
+	<h1>Expression Web<br />
+	<span class="tagline">The basics and beyond</span></h1>
+</div>
+<div id="menu">
+	<img alt="" src="../../images/menu-lft.gif" width="33" height="45" 
+	class="floatleft" />
+	<ul>
+		<li><a href="../../index.html">home</a></li>
+		<li><a href="../../book/about.html">about</a></li>
+		<li><a href="../../exercises.html">exercises</a></li>
+		<li><a href="../../Templates/..links.html">links</a></li>
+		<li><a href="../../book/contact.html">contact</a></li>
+	</ul>
+</div>
+<div id="container">
+	<div id="leftcol">
+		<h3>Branding</h3>
+		<p>You don&#39;t need to go as high contrast as this to get your branding across.</p>
+		</div>
+	<div id="main_content">
+
+<h1>Contact Us</h1>
+<form method="post" action="sendmail.asp" name="contact">
+
+<p><label id="lblsname" for="sname">Name:</label><input name="sname" type="text" /> 
+<br />
+<label id="lblemail" for="email">Email: </label><input name="email" type="text" /><br />
+<label id="lblmessage" for="message">Message:</label><textarea name="message" cols="30" rows="10"></textarea></p>
+<p class="submit">
+	<input name="Submit1" id="submit1" type="submit" value="submit" /></p>
+</form>
+
+	</div>
+</div>
+<div id="footer">
+	<p>© 2007 Cheryl D. Wise</p>
+</div>
+
+</body>
+
+</html>

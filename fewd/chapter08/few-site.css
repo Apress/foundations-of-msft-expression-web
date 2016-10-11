@@ -1,0 +1,87 @@
+﻿body {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+#masthead {
+    background-color: #000000;
+    padding: 0;
+    margin: 0 124px 0 0;
+    color: #FDB928;
+    height: 119px;
+    text-align: right;
+}
+#masthead h1 {
+    padding: .5em 1em;
+    margin: 0;
+    font-size: 1.5em;
+}
+.tagline {
+    font-size: .75em;
+}
+#menu {
+    background: url('images/menu-bg.gif') repeat-x bottom #FDB928;
+    height: 45px;
+}
+#menu ul {
+    margin: 0;
+    padding: 0 1em 0 0;
+    text-align: right;
+}
+#menu li {
+    display: inline;
+    border-left: 1px solid #000000;
+}
+#menu a {
+    line-height: 40px;
+    padding: 0 .3em;
+    text-decoration: none;
+    color: #333333;
+}
+#menu a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+#container {
+    border-right: solid 6px #000000;
+    border-left: solid 6px #000000;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #CEDBAE;
+}
+#leftcol {
+    background: #000000 url('images/book-corner.jpg') no-repeat;
+    float: left;
+    width: 150px;
+    padding: 100px 4px 10px 10px;
+    font-size: .88em;
+}
+#main_content {
+    padding: .1em 1em;
+    margin: 0 0 0 165px;
+    background-color: #F4F5EF;
+    color: #000000;
+}
+#footer {
+    margin: 0px;
+    padding: .1em 1em;
+    font-size: .8em;
+    border-top: solid 1px #666666;
+    border-right: solid 6px #000000;
+    border-bottom: solid 6px #000000;
+    border-left: solid 6px #000000;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+}

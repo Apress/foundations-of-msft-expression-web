@@ -1,0 +1,21 @@
+Chapter 8 files are:
+
+Text Files
+
+chapter7.txt
+masthead..txt
+chapter8.txt
+
+Image files
+
+book-corner.jpg
+book.png
+menu-bg.gif
+menu-lft.gif
+
+
+Completed Exercises
+
+float-image.html
+masthead.html
+chapter8.html

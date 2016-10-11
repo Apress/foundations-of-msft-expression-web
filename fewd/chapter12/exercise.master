@@ -1,0 +1,51 @@
+<%@ master masterpagefile="fewd.master" language="C#" %>
+<asp:Content id="Content1" runat="server" contentplaceholderid="sidecol">
+
+        <h3>Exercise Code</h3>
+	<p>The code used in this book is available for the following chapters:</p>
+	<ul><li>Chapter 3</li>
+	<li>Chapter 4</li>
+		<li>Chapter 5</li>
+		<li>Chapter 6</li>
+		<li>Chapter 7</li>
+		<li>Chapter 8</li>
+		<li>Chapter 9</li>
+		<li>Chapter 10</li>
+		<li>Chapter 12</li>
+		<li>Chapter 13</li>
+		<li>Appendix</li>
+</ul>
+        <asp:ContentPlaceHolder runat="Server" id="adverts">
+<p>&nbsp;</p>
+    
+        </asp:ContentPlaceHolder>
+    
+</asp:Content>
+<asp:Content id="Content2" runat="server" contentplaceholderid="main">
+        <h2>main content area</h2>
+        <p>You don&apos;t need to go as high contrast as this to get your branding across.</p>
+        <h2>Overview</h2>
+        <p>In this exercise we will be creating our website look and feel. Since 
+        there is no content to be placed here yet placeholder, or what is called 
+        designer text, will be used after this paragraph.</p>
+        <h2>Created by the Press Release Generator</h2>
+        <p>Thanks to the recent reorganization, the key players are not going to 
+        step up to the challenge of competitive killer apps. Having first verified 
+        that the drop dead dates give a clear channel towards quality control, a 
+        careful examination of the writeoffs reveals that the scenarios provide 
+        an indication of the established standard application framework.</p>
+        <h3>Task-oriented disclosures make it happen. </h3>
+        <p>As always, the workgroups empower compliant turnkey systems? Having first 
+        verified that the goals enable kick-ass graphics, a careful examination 
+        of the best systems in the world reveals that revolutionary RISC technology 
+        is not the object-oriented headcount readjustments. </p>
+        <h3>More Generated Content</h3>
+        <p>Now that the merger is complete, content sweetening eventually closes 
+        the loop on the issue of the team players. This is why Tom Jermoluk recently 
+        announced that missions will succeed. The multimedia next generation system 
+        gets your input on price-performance technologies. We&apos;re going forward on 
+        a binary-compatible next generation system. </p>
+        
+
+</asp:Content>
+

@@ -1,0 +1,30 @@
+Chapter 5 files are:
+
+Text Files
+
+cascade.txt
+browser-text.txt
+external.css   
+Link Test.txt 
+Link_Test-2.txt
+0verlapping_for_effect.txt
+contextual_selectors.txt
+position-relative.txt
+
+Images
+
+circ.gif
+
+Completed Exercises
+
+cascade.html
+browser-text.html
+figure5-3.html
+figure5-4.html
+figure5-5.html
+figure5-6.html
+Link Test.html
+Link_Test-2.html
+0verlapping_for_effect.html
+contextual_selectors.html
+position-relative.html

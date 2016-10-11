@@ -1,0 +1,12 @@
+﻿body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+h2 {
+	color: gray;
+	text-align: center;
+}
+p {
+	font-size: small;
+}

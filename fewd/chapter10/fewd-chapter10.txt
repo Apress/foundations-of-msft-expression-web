@@ -1,0 +1,21 @@
+Chapter 10
+
+On http://foundationsofexpressionweb.com you can download the files individually since this chapter has server side code for processing the forms there are two versions of many of the files one that ends in .txt which are required to download the file with server side code and another with the server side processing script. 
+
+Text Files
+
+form.css
+sendmail-asp.txt
+sendmail-php.txt
+form1-aspx.txt
+
+Server-side Scripts
+
+sendmail.asp
+sendmail.php
+
+Completed Exercises
+
+form.html
+form1.html
+form1.aspx

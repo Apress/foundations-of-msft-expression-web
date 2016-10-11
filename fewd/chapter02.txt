@@ -1,0 +1,8 @@
+Chapter 2
+
+As with Chapter 1 there are no resource files for this chapter. They will start in Chapter 3.
+
+I would like to take this opportunity to let you know that we have support forums for Expression Web at http://forum.by-expression.com. On the main http://by-expression.com website we have video tutorials related about some of the configuration options discussed in the book as well as sample templates and tutorials on other issues that are posted in our forum or on the Microsoft Public group.
+
+Microsoft has a newsgroup you can access with your favorite newsreader, Outlook Express or Windows Mail. If you are using Outlook Express or Windows Mail turn the  the following into alink to subscribe:
+news://msnews.microsoft.com/microsoft.public.expression.webdesigner 
